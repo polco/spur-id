@@ -1,0 +1,20 @@
+{
+  "name": "spur-id",
+  "version": "0.1.0",
+  "description": "Handling DOM node identification.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spur/spur-id.git"
+  },
+  "keywords": [
+    "DOM",
+    "id"
+  ],
+  "author": "Paul Colleoni (http://github.com/polco)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spur/spur-id/issues"
+  },
+  "homepage": "https://github.com/spur/spur-id#readme"
+}
