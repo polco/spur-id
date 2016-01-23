@@ -7,6 +7,7 @@ var counter = 1;
 function getDOMNodeId(element, createIfNull) {
   if (element === window) { return WINDOW_NODE_ID; }
   if (element === document) { return DOCUMENT_NODE_ID; }
+  if (!element || !element.getAttribute) { return; }
   var id = element.getAttribute(ATTRIBUTE_NAME);
   if (createIfNull && !id) {
     id = counter;
